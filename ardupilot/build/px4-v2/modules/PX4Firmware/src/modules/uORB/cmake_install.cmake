@@ -1,4 +1,4 @@
-# Install script for directory: /home/jj/MyProject/ardupilot/modules/PX4Firmware/src/modules/uORB
+# Install script for directory: /home/jj/ardupilot/modules/PX4Firmware/src/modules/uORB
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

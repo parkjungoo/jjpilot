@@ -1,4 +1,4 @@
-# Install script for directory: /home/jj/MyProject/ardupilot/modules/PX4Firmware/src/systemcmds/ver
+# Install script for directory: /home/jj/ardupilot/modules/PX4Firmware/src/systemcmds/ver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

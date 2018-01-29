@@ -330,23 +330,6 @@ struct px4_parameters_t {
 	/*****************************************************************
 	 * Multicopter Attitude Control
 	 ****************************************************************/
-	const struct param_info_s __param__MP_ROLL_P;
-	const struct param_info_s __param__MP_ROLLRATE_P;
-	const struct param_info_s __param__MP_ROLLRATE_I;
-	const struct param_info_s __param__MP_ROLLRATE_D;
-	const struct param_info_s __param__MP_PITCH_P;
-	const struct param_info_s __param__MP_PITCHRATE_P;
-	const struct param_info_s __param__MP_PITCHRATE_I;
-	const struct param_info_s __param__MP_PITCHRATE_D;
-	const struct param_info_s __param__MP_YAW_P;
-	const struct param_info_s __param__MP_YAWRATE_P;
-	const struct param_info_s __param__MP_YAWRATE_I;
-	const struct param_info_s __param__MP_YAWRATE_D;
-	const struct param_info_s __param__MP_YAW_FF;
-	const struct param_info_s __param__MP_YAWRATE_MAX;
-	const struct param_info_s __param__MP_ACRO_R_MAX;
-	const struct param_info_s __param__MP_ACRO_P_MAX;
-	const struct param_info_s __param__MP_ACRO_Y_MAX;
 	const struct param_info_s __param__MC_ROLL_TC;
 	const struct param_info_s __param__MC_PITCH_TC;
 	const struct param_info_s __param__MC_ROLL_P;
@@ -373,6 +356,23 @@ struct px4_parameters_t {
 	const struct param_info_s __param__MC_ACRO_P_MAX;
 	const struct param_info_s __param__MC_ACRO_Y_MAX;
 	const struct param_info_s __param__MC_RATT_TH;
+	const struct param_info_s __param__MP_ROLL_P;
+	const struct param_info_s __param__MP_ROLLRATE_P;
+	const struct param_info_s __param__MP_ROLLRATE_I;
+	const struct param_info_s __param__MP_ROLLRATE_D;
+	const struct param_info_s __param__MP_PITCH_P;
+	const struct param_info_s __param__MP_PITCHRATE_P;
+	const struct param_info_s __param__MP_PITCHRATE_I;
+	const struct param_info_s __param__MP_PITCHRATE_D;
+	const struct param_info_s __param__MP_YAW_P;
+	const struct param_info_s __param__MP_YAWRATE_P;
+	const struct param_info_s __param__MP_YAWRATE_I;
+	const struct param_info_s __param__MP_YAWRATE_D;
+	const struct param_info_s __param__MP_YAW_FF;
+	const struct param_info_s __param__MP_YAWRATE_MAX;
+	const struct param_info_s __param__MP_ACRO_R_MAX;
+	const struct param_info_s __param__MP_ACRO_P_MAX;
+	const struct param_info_s __param__MP_ACRO_Y_MAX;
 	const struct param_info_s __param__MPP_MAN_R_MAX;
 	const struct param_info_s __param__MPP_MAN_P_MAX;
 	const struct param_info_s __param__MPP_MAN_Y_MAX;
@@ -431,6 +431,12 @@ struct px4_parameters_t {
 	/*****************************************************************
 	 * PWM Outputs
 	 ****************************************************************/
+	const struct param_info_s __param__PWM_AUX_REV1;
+	const struct param_info_s __param__PWM_AUX_REV2;
+	const struct param_info_s __param__PWM_AUX_REV3;
+	const struct param_info_s __param__PWM_AUX_REV4;
+	const struct param_info_s __param__PWM_AUX_REV5;
+	const struct param_info_s __param__PWM_AUX_REV6;
 	const struct param_info_s __param__PWM_MAIN_REV1;
 	const struct param_info_s __param__PWM_MAIN_REV2;
 	const struct param_info_s __param__PWM_MAIN_REV3;
@@ -440,12 +446,6 @@ struct px4_parameters_t {
 	const struct param_info_s __param__PWM_MAIN_REV7;
 	const struct param_info_s __param__PWM_MAIN_REV8;
 	const struct param_info_s __param__PWM_SBUS_MODE;
-	const struct param_info_s __param__PWM_AUX_REV1;
-	const struct param_info_s __param__PWM_AUX_REV2;
-	const struct param_info_s __param__PWM_AUX_REV3;
-	const struct param_info_s __param__PWM_AUX_REV4;
-	const struct param_info_s __param__PWM_AUX_REV5;
-	const struct param_info_s __param__PWM_AUX_REV6;
 	const struct param_info_s __param__PWM_MIN;
 	const struct param_info_s __param__PWM_MAX;
 	const struct param_info_s __param__PWM_DISARMED;
@@ -794,11 +794,6 @@ struct px4_parameters_t {
 	/*****************************************************************
 	 * VTOL Attitude Control
 	 ****************************************************************/
-	const struct param_info_s __param__VT_TILT_MC;
-	const struct param_info_s __param__VT_TILT_TRANS;
-	const struct param_info_s __param__VT_TILT_FW;
-	const struct param_info_s __param__VT_TRANS_P2_DUR;
-	const struct param_info_s __param__VT_FW_MOT_OFFID;
 	const struct param_info_s __param__VT_MOT_COUNT;
 	const struct param_info_s __param__VT_IDLE_PWM_MC;
 	const struct param_info_s __param__VT_MC_ARSPD_MIN;
@@ -823,6 +818,11 @@ struct px4_parameters_t {
 	const struct param_info_s __param__VT_TRANS_MIN_TM;
 	const struct param_info_s __param__VT_NAV_FORCE_VT;
 	const struct param_info_s __param__VT_TRANS_THR;
+	const struct param_info_s __param__VT_TILT_MC;
+	const struct param_info_s __param__VT_TILT_TRANS;
+	const struct param_info_s __param__VT_TILT_FW;
+	const struct param_info_s __param__VT_TRANS_P2_DUR;
+	const struct param_info_s __param__VT_FW_MOT_OFFID;
 	/*****************************************************************
 	 * mTECS
 	 ****************************************************************/
@@ -870,11 +870,10 @@ struct px4_parameters_t {
 	/*****************************************************************
 	 * Miscellaneous
 	 ****************************************************************/
-	const struct param_info_s __param__RV_YAW_P;
 	const struct param_info_s __param__EXFW_HDNG_P;
 	const struct param_info_s __param__EXFW_ROLL_P;
 	const struct param_info_s __param__EXFW_PITCH_P;
-	const struct param_info_s __param__RC_MAP_FAILSAFE;
+	const struct param_info_s __param__RV_YAW_P;
 	const struct param_info_s __param__TEST_MIN;
 	const struct param_info_s __param__TEST_MAX;
 	const struct param_info_s __param__TEST_TRIM;
@@ -887,6 +886,7 @@ struct px4_parameters_t {
 	const struct param_info_s __param__TEST_D_LP;
 	const struct param_info_s __param__TEST_MEAN;
 	const struct param_info_s __param__TEST_DEV;
+	const struct param_info_s __param__RC_MAP_FAILSAFE;
 	const struct param_info_s __param__COM_FLTMODE1;
 	const struct param_info_s __param__COM_FLTMODE2;
 	const struct param_info_s __param__COM_FLTMODE3;

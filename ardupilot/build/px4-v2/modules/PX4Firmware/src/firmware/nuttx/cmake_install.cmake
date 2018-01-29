@@ -1,4 +1,4 @@
-# Install script for directory: /home/jj/MyProject/ardupilot/modules/PX4Firmware/src/firmware/nuttx
+# Install script for directory: /home/jj/ardupilot/modules/PX4Firmware/src/firmware/nuttx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,7 +27,7 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "/home/jj/MyProject/ardupilot/build/px4-v2/modules/PX4Firmware/src/firmware/nuttx/nuttx-px4fmu-v2-apm.px4")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "/home/jj/ardupilot/build/px4-v2/modules/PX4Firmware/src/firmware/nuttx/nuttx-px4fmu-v2-apm.px4")
 endif()
 

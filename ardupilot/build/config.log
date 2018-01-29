@@ -1,13 +1,13 @@
-# project  configured on Tue Jan 30 00:55:42 2018 by
-# waf 1.9.2 (abi 99, python 2070df0 on linux2)
-# using /home/jj/MyProject/ardupilot/modules/waf/waf-light configure --board px4-v2
+# project  configured on Thu Jan 25 16:10:09 2018 by
+# waf 1.9.2 (abi 99, python 2070cf0 on linux2)
+# using /home/jj/ardupilot/modules/waf/waf-light configure --board px4-v2
 #
 ----------------------------------------
 Setting top to
-/home/jj/MyProject/ardupilot
+/home/jj/ardupilot
 ----------------------------------------
 Setting out to
-/home/jj/MyProject/ardupilot/build
+/home/jj/ardupilot/build
 ----------------------------------------
 Autoconfiguration
 enabled
@@ -17,13 +17,13 @@ px4-v2
 ----------------------------------------
 Checking for program 'arm-none-eabi-ar'
 /opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar
-find program=['arm-none-eabi-ar'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='AR' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar']
+find program=['arm-none-eabi-ar'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='AR' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar']
 ----------------------------------------
 Using toolchain
 arm-none-eabi
 ----------------------------------------
 Checking for 'g++' (C++ compiler)
-find program=['arm-none-eabi-g++', 'arm-none-eabi-c++'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='CXX' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++']
+find program=['arm-none-eabi-g++', 'arm-none-eabi-c++'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='CXX' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++']
 ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-dM', '-E', '-']
 out: #define __DBL_MIN_EXP__ (-1021)
 #define __HQ_FBIT__ 15
@@ -368,11 +368,11 @@ out: #define __DBL_MIN_EXP__ (-1021)
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-find program=['ar'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='AR' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar']
+find program=['ar'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='AR' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar']
 /opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++
 ----------------------------------------
 Checking for 'gcc' (C compiler)
-find program=['arm-none-eabi-gcc', 'arm-none-eabi-cc'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='CC' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc']
+find program=['arm-none-eabi-gcc', 'arm-none-eabi-cc'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='CC' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc']
 ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc', '-dM', '-E', '-']
 out: #define __DBL_MIN_EXP__ (-1021)
 #define __HQ_FBIT__ 15
@@ -717,7 +717,7 @@ out: #define __DBL_MIN_EXP__ (-1021)
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-find program=['ar'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='AR' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar']
+find program=['ar'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='AR' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-ar']
 /opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc
 ----------------------------------------
 Checking for HAVE_CMATH_ISFINITE
@@ -729,28 +729,28 @@ Checking for HAVE_CMATH_ISFINITE
           return std::isfinite(1.0f);
         }
 <==
-[1/2] Compiling [32mbuild/.conf_check_85d78cca9af68bd11787726c3a310548/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_0139db1cb8fcda72f7fd942694644a78/test.cpp[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/MyProject/ardupilot/build/.conf_check_85d78cca9af68bd11787726c3a310548/testbuild/px4-v2/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_85d78cca9af68bd11787726c3a310548/testbuild/px4-v2/testprog[0m
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/ardupilot/build/.conf_check_0139db1cb8fcda72f7fd942694644a78/testbuild/px4-v2/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_0139db1cb8fcda72f7fd942694644a78/testbuild/px4-v2/testprog[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_85d78cca9af68bd11787726c3a310548/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_0139db1cb8fcda72f7fd942694644a78/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 err: /opt/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
 exit.c:(.text.exit+0x2c): undefined reference to `_exit'
 collect2: error: ld returned 1 exit status
 
-from /home/jj/MyProject/ardupilot: Test does not build: Traceback (most recent call last):
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
+from /home/jj/ardupilot: Test does not build: Traceback (most recent call last):
+  File "/home/jj/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
     bld.compile()
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
+  File "/home/jj/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 3067469452L: cxxprogram test.cpp.1.o -> testprog}
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_85d78cca9af68bd11787726c3a310548/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+	{task 3067188284L: cxxprogram test.cpp.1.o -> testprog}
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_0139db1cb8fcda72f7fd942694644a78/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 
 no
-from /home/jj/MyProject/ardupilot: The configuration failed
+from /home/jj/ardupilot: The configuration failed
 ----------------------------------------
 Checking for HAVE_CMATH_ISINF
 ==>
@@ -761,28 +761,28 @@ Checking for HAVE_CMATH_ISINF
           return std::isinf(1.0f);
         }
 <==
-[1/2] Compiling [32mbuild/.conf_check_e1721533f2ae6b4e854feabbc194410e/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_50a7ffc8476f14300d22b55ac4abd3f2/test.cpp[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/MyProject/ardupilot/build/.conf_check_e1721533f2ae6b4e854feabbc194410e/testbuild/px4-v2/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_e1721533f2ae6b4e854feabbc194410e/testbuild/px4-v2/testprog[0m
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/ardupilot/build/.conf_check_50a7ffc8476f14300d22b55ac4abd3f2/testbuild/px4-v2/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_50a7ffc8476f14300d22b55ac4abd3f2/testbuild/px4-v2/testprog[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_e1721533f2ae6b4e854feabbc194410e/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_50a7ffc8476f14300d22b55ac4abd3f2/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 err: /opt/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
 exit.c:(.text.exit+0x2c): undefined reference to `_exit'
 collect2: error: ld returned 1 exit status
 
-from /home/jj/MyProject/ardupilot: Test does not build: Traceback (most recent call last):
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
+from /home/jj/ardupilot: Test does not build: Traceback (most recent call last):
+  File "/home/jj/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
     bld.compile()
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
+  File "/home/jj/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 3067189564L: cxxprogram test.cpp.1.o -> testprog}
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_e1721533f2ae6b4e854feabbc194410e/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+	{task 3058036900L: cxxprogram test.cpp.1.o -> testprog}
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_50a7ffc8476f14300d22b55ac4abd3f2/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 
 no
-from /home/jj/MyProject/ardupilot: The configuration failed
+from /home/jj/ardupilot: The configuration failed
 ----------------------------------------
 Checking for HAVE_CMATH_ISNAN
 ==>
@@ -793,28 +793,28 @@ Checking for HAVE_CMATH_ISNAN
           return std::isnan(1.0f);
         }
 <==
-[1/2] Compiling [32mbuild/.conf_check_444b040d26b3ff1ded7cd85354fed4d7/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_e232b72e69313cf4d534f4a7c903e7e3/test.cpp[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/MyProject/ardupilot/build/.conf_check_444b040d26b3ff1ded7cd85354fed4d7/testbuild/px4-v2/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_444b040d26b3ff1ded7cd85354fed4d7/testbuild/px4-v2/testprog[0m
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/ardupilot/build/.conf_check_e232b72e69313cf4d534f4a7c903e7e3/testbuild/px4-v2/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_e232b72e69313cf4d534f4a7c903e7e3/testbuild/px4-v2/testprog[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_444b040d26b3ff1ded7cd85354fed4d7/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_e232b72e69313cf4d534f4a7c903e7e3/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 err: /opt/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
 exit.c:(.text.exit+0x2c): undefined reference to `_exit'
 collect2: error: ld returned 1 exit status
 
-from /home/jj/MyProject/ardupilot: Test does not build: Traceback (most recent call last):
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
+from /home/jj/ardupilot: Test does not build: Traceback (most recent call last):
+  File "/home/jj/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
     bld.compile()
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
+  File "/home/jj/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 3058532916L: cxxprogram test.cpp.1.o -> testprog}
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_444b040d26b3ff1ded7cd85354fed4d7/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+	{task 3058182180L: cxxprogram test.cpp.1.o -> testprog}
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_e232b72e69313cf4d534f4a7c903e7e3/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 
 no
-from /home/jj/MyProject/ardupilot: The configuration failed
+from /home/jj/ardupilot: The configuration failed
 ----------------------------------------------
 Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE
 ==>
@@ -828,28 +828,28 @@ Checking for NEED_CMATH_ISFINITE_STD_NAMESPACE
           return isfinite((double)1);
         }
 <==
-[1/2] Compiling [32mbuild/.conf_check_f6e70682b4c48056900f926be6eb869e/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_1d28ca0cd76fded6e42040318700db0e/test.cpp[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/MyProject/ardupilot/build/.conf_check_f6e70682b4c48056900f926be6eb869e/testbuild/px4-v2/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_f6e70682b4c48056900f926be6eb869e/testbuild/px4-v2/testprog[0m
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/ardupilot/build/.conf_check_1d28ca0cd76fded6e42040318700db0e/testbuild/px4-v2/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_1d28ca0cd76fded6e42040318700db0e/testbuild/px4-v2/testprog[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_f6e70682b4c48056900f926be6eb869e/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_1d28ca0cd76fded6e42040318700db0e/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 err: /opt/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
 exit.c:(.text.exit+0x2c): undefined reference to `_exit'
 collect2: error: ld returned 1 exit status
 
-from /home/jj/MyProject/ardupilot: Test does not build: Traceback (most recent call last):
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
+from /home/jj/ardupilot: Test does not build: Traceback (most recent call last):
+  File "/home/jj/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
     bld.compile()
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
+  File "/home/jj/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 3058622588L: cxxprogram test.cpp.1.o -> testprog}
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_f6e70682b4c48056900f926be6eb869e/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+	{task 3058267596L: cxxprogram test.cpp.1.o -> testprog}
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_1d28ca0cd76fded6e42040318700db0e/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 
 no
-from /home/jj/MyProject/ardupilot: The configuration failed
+from /home/jj/ardupilot: The configuration failed
 ----------------------------------------------
 Checking for NEED_CMATH_ISINF_STD_NAMESPACE
 ==>
@@ -863,28 +863,28 @@ Checking for NEED_CMATH_ISINF_STD_NAMESPACE
           return isinf((double)1);
         }
 <==
-[1/2] Compiling [32mbuild/.conf_check_efc0330b03f34937d0a6ae87e47ea85d/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_841a4a12db11e1a86ebcd633d663ee8d/test.cpp[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/MyProject/ardupilot/build/.conf_check_efc0330b03f34937d0a6ae87e47ea85d/testbuild/px4-v2/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_efc0330b03f34937d0a6ae87e47ea85d/testbuild/px4-v2/testprog[0m
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/ardupilot/build/.conf_check_841a4a12db11e1a86ebcd633d663ee8d/testbuild/px4-v2/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_841a4a12db11e1a86ebcd633d663ee8d/testbuild/px4-v2/testprog[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_efc0330b03f34937d0a6ae87e47ea85d/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_841a4a12db11e1a86ebcd633d663ee8d/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 err: /opt/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
 exit.c:(.text.exit+0x2c): undefined reference to `_exit'
 collect2: error: ld returned 1 exit status
 
-from /home/jj/MyProject/ardupilot: Test does not build: Traceback (most recent call last):
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
+from /home/jj/ardupilot: Test does not build: Traceback (most recent call last):
+  File "/home/jj/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
     bld.compile()
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
+  File "/home/jj/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 3067089060L: cxxprogram test.cpp.1.o -> testprog}
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_efc0330b03f34937d0a6ae87e47ea85d/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+	{task 3066722980L: cxxprogram test.cpp.1.o -> testprog}
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_841a4a12db11e1a86ebcd633d663ee8d/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 
 no
-from /home/jj/MyProject/ardupilot: The configuration failed
+from /home/jj/ardupilot: The configuration failed
 ----------------------------------------------
 Checking for NEED_CMATH_ISNAN_STD_NAMESPACE
 ==>
@@ -898,28 +898,28 @@ Checking for NEED_CMATH_ISNAN_STD_NAMESPACE
           return isnan((double)1);
         }
 <==
-[1/2] Compiling [32mbuild/.conf_check_fa28e77a3c408f5f05ffb251e285b361/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_867431bb62d6237278ddd3871731d2c7/test.cpp[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/MyProject/ardupilot/build/.conf_check_fa28e77a3c408f5f05ffb251e285b361/testbuild/px4-v2/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_fa28e77a3c408f5f05ffb251e285b361/testbuild/px4-v2/testprog[0m
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/ardupilot/build/.conf_check_867431bb62d6237278ddd3871731d2c7/testbuild/px4-v2/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_867431bb62d6237278ddd3871731d2c7/testbuild/px4-v2/testprog[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_fa28e77a3c408f5f05ffb251e285b361/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_867431bb62d6237278ddd3871731d2c7/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 err: /opt/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): In function `exit':
 exit.c:(.text.exit+0x2c): undefined reference to `_exit'
 collect2: error: ld returned 1 exit status
 
-from /home/jj/MyProject/ardupilot: Test does not build: Traceback (most recent call last):
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
+from /home/jj/ardupilot: Test does not build: Traceback (most recent call last):
+  File "/home/jj/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
     bld.compile()
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
+  File "/home/jj/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 3058192012L: cxxprogram test.cpp.1.o -> testprog}
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/MyProject/ardupilot/build/.conf_check_fa28e77a3c408f5f05ffb251e285b361/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+	{task 3057837436L: cxxprogram test.cpp.1.o -> testprog}
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-Wl,--gc-sections', 'test.cpp.1.o', '-o/home/jj/ardupilot/build/.conf_check_867431bb62d6237278ddd3871731d2c7/testbuild/px4-v2/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 
 no
-from /home/jj/MyProject/ardupilot: The configuration failed
+from /home/jj/ardupilot: The configuration failed
 ----------------------------------------------
 Checking for header endian.h
 ==>
@@ -931,26 +931,26 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_48ffe60da4400800e05d419006bba49b/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_71d96b36ec6eca3807c50916a1150535/test.cpp[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/MyProject/ardupilot/build/.conf_check_48ffe60da4400800e05d419006bba49b/testbuild/px4-v2/test.cpp.1.o']
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/ardupilot/build/.conf_check_71d96b36ec6eca3807c50916a1150535/testbuild/px4-v2/test.cpp.1.o']
 err: ../../test.cpp:1:20: fatal error: endian.h: No such file or directory
  #include <endian.h>
                     ^
 compilation terminated.
 
-from /home/jj/MyProject/ardupilot: Test does not build: Traceback (most recent call last):
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
+from /home/jj/ardupilot: Test does not build: Traceback (most recent call last):
+  File "/home/jj/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
     bld.compile()
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
+  File "/home/jj/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 3058281804L: cxx test.cpp -> test.cpp.1.o}
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/MyProject/ardupilot/build/.conf_check_48ffe60da4400800e05d419006bba49b/testbuild/px4-v2/test.cpp.1.o']
+	{task 3057927308L: cxx test.cpp -> test.cpp.1.o}
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/ardupilot/build/.conf_check_71d96b36ec6eca3807c50916a1150535/testbuild/px4-v2/test.cpp.1.o']
 
 not found
-from /home/jj/MyProject/ardupilot: The configuration failed
+from /home/jj/ardupilot: The configuration failed
 ----------------------------------------------
 Checking for header byteswap.h
 ==>
@@ -962,46 +962,46 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_3a634d33332c0e282ded99cff4c001bc/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_504499f5b0f1fa8b600fdf0cc33b456b/test.cpp[0m
 
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/MyProject/ardupilot/build/.conf_check_3a634d33332c0e282ded99cff4c001bc/testbuild/px4-v2/test.cpp.1.o']
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/ardupilot/build/.conf_check_504499f5b0f1fa8b600fdf0cc33b456b/testbuild/px4-v2/test.cpp.1.o']
 err: ../../test.cpp:1:22: fatal error: byteswap.h: No such file or directory
  #include <byteswap.h>
                       ^
 compilation terminated.
 
-from /home/jj/MyProject/ardupilot: Test does not build: Traceback (most recent call last):
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
+from /home/jj/ardupilot: Test does not build: Traceback (most recent call last):
+  File "/home/jj/ardupilot/modules/waf/waflib/Configure.py", line 584, in run_build
     bld.compile()
-  File "/home/jj/MyProject/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
+  File "/home/jj/ardupilot/modules/waf/waflib/Build.py", line 377, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 3067133540L: cxx test.cpp -> test.cpp.1.o}
-['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/MyProject/ardupilot/build/.conf_check_3a634d33332c0e282ded99cff4c001bc/testbuild/px4-v2/test.cpp.1.o']
+	{task 3066746356L: cxx test.cpp -> test.cpp.1.o}
+['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-g++', '-std=gnu++11', '-fdata-sections', '-ffunction-sections', '-fno-exceptions', '-fsigned-char', '-Wall', '-Wextra', '-Wformat', '-Wshadow', '-Wpointer-arith', '-Wcast-align', '-Wundef', '-Wno-unused-parameter', '-Wno-missing-field-initializers', '-Wno-reorder', '-Wno-redundant-decls', '-Wno-unknown-pragmas', '-Werror=format-security', '-Werror=array-bounds', '-Werror=uninitialized', '-Werror=init-self', '-Werror=switch', '-Wfatal-errors', '-Wno-trigraphs', '-Werror=unused-but-set-variable', '-Wno-error=cast-align', '-Wlogical-op', '-Wframe-larger-than=1300', '-fsingle-precision-constant', '-Wno-attributes', '-Wno-error=double-promotion', '-Wno-error=missing-declarations', '-Wno-error=float-equal', '-Wno-error=undef', '-Wno-error=cpp', '-I../../../../modules/uavcan/libuavcan/include', '-DCONFIG_HAL_BOARD=HAL_BOARD_PX4', '-DHAVE_OCLOEXEC=0', '-DHAVE_STD_NULLPTR_T=0', '-DUAVCAN_CPP_VERSION=UAVCAN_CPP03', '-DUAVCAN_NO_ASSERTIONS=1', '-DUAVCAN_NULLPTR=nullptr', '-DWAF_BUILD=1', '-D__STDC_FORMAT_MACROS=1', '../../test.cpp', '-c', '-o/home/jj/ardupilot/build/.conf_check_504499f5b0f1fa8b600fdf0cc33b456b/testbuild/px4-v2/test.cpp.1.o']
 
 not found
-from /home/jj/MyProject/ardupilot: The configuration failed
+from /home/jj/ardupilot: The configuration failed
 ----------------------------------------------
 Checking for program 'cmake'
 /usr/bin/cmake
-find program=['cmake'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='CMAKE' -> ['/usr/bin/cmake']
+find program=['cmake'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='CMAKE' -> ['/usr/bin/cmake']
 ----------------------------------------------
 Checking cmake version
-3.7.2
+3.5.1
 ----------------------------------------------
 Checking for program 'ninja, ninja-build'
 not found
-find program=['ninja', 'ninja-build'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='NINJA' -> None
-from /home/jj/MyProject/ardupilot: Could not find the program ['ninja', 'ninja-build']
+find program=['ninja', 'ninja-build'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='NINJA' -> None
+from /home/jj/ardupilot: Could not find the program ['ninja', 'ninja-build']
 ----------------------------------------------
 Checking for program 'make'
 /usr/bin/make
-find program=['make'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='MAKE' -> ['/usr/bin/make']
+find program=['make'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='MAKE' -> ['/usr/bin/make']
 ----------------------------------------------
 Checking for program 'python'
 /usr/bin/python
-find program=['python'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='PYTHON' -> ['/usr/bin/python']
+find program=['python'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='PYTHON' -> ['/usr/bin/python']
 ['/usr/bin/python', '-c', 'import imp;print(imp.get_tag())']
 err: Traceback (most recent call last):
   File "<string>", line 1, in <module>
@@ -1010,7 +1010,7 @@ AttributeError: 'module' object has no attribute 'get_tag'
 ['/usr/bin/python', '-c', 'import sys\nfor x in sys.version_info: print(str(x))']
 out: 2
 7
-13
+12
 final
 0
 
@@ -1026,11 +1026,11 @@ out: '/usr/local/lib/python2.7/dist-packages'
 
 ----------------------------------------------
 Checking for python version >= 2.7.0
-2.7.13
+2.7.12
 ----------------------------------------------
 Checking for program 'python'
 /usr/bin/python
-find program=['python'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='PYTHON' -> ['/usr/bin/python']
+find program=['python'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='PYTHON' -> ['/usr/bin/python']
 ['/usr/bin/python', '-c', 'import imp;print(imp.get_tag())']
 err: Traceback (most recent call last):
   File "<string>", line 1, in <module>
@@ -1039,13 +1039,13 @@ AttributeError: 'module' object has no attribute 'get_tag'
 ['/usr/bin/python', '-c', 'import sys\nfor x in sys.version_info: print(str(x))']
 out: 2
 7
-13
+12
 final
 0
 
 ----------------------------------------------
 Checking for python version >= 2.7.0
-2.7.13
+2.7.12
 ----------------------------------------------
 Source is git repository
 yes
@@ -1055,14 +1055,14 @@ yes
 ----------------------------------------------
 Checking for program 'git'
 /usr/bin/git
-find program=['git'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='GIT' -> ['/usr/bin/git']
+find program=['git'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='GIT' -> ['/usr/bin/git']
 ----------------------------------------------
 Gtest
 PX4 boards currently don't support compiling gtest
 ----------------------------------------------
 Checking for program 'arm-none-eabi-size'
 /opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-size
-find program=['arm-none-eabi-size'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='SIZE' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-size']
+find program=['arm-none-eabi-size'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='SIZE' -> ['/opt/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-size']
 ----------------------------------------------
 Benchmarks
 disabled
@@ -1072,4 +1072,4 @@ disabled
 ----------------------------------------------
 Checking for program 'rsync'
 /usr/bin/rsync
-find program=['rsync'] paths=['/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='RSYNC' -> ['/usr/bin/rsync']
+find program=['rsync'] paths=['/home/jj/ardupilot-Copter-3.5.4/Tools/autotest', '/home/jj/ardupilot/Tools/autotest', '/opt/gcc-arm-none-eabi-4_9-2015q3/bin', '/home/jj/bin', '/home/jj/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/lib/jvm/java-8-oracle/bin', '/usr/lib/jvm/java-8-oracle/db/bin', '/usr/lib/jvm/java-8-oracle/jre/bin'] var='RSYNC' -> ['/usr/bin/rsync']

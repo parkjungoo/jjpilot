@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/jj/MyProject/ardupilot/build/px4-v2/modules/PX4Firmware/src/modules/param/px4_parameters.c
+/home/jj/ardupilot/build/px4-v2/modules/PX4Firmware/src/modules/param/px4_parameters.c
 px4_parameters.h
 -
 
-/home/jj/MyProject/ardupilot/modules/PX4Firmware/src/modules/systemlib/param/param.h
+/home/jj/ardupilot/modules/PX4Firmware/src/modules/systemlib/param/param.h
 stdint.h
 -
 stdbool.h

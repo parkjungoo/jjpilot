@@ -1,4 +1,4 @@
-# Install script for directory: /home/jj/MyProject/ardupilot/modules/PX4Firmware/src/systemcmds/usb_connected
+# Install script for directory: /home/jj/ardupilot/modules/PX4Firmware/src/systemcmds/usb_connected
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

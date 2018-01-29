@@ -1832,98 +1832,6 @@ velocity</short_desc>
     </parameter>
   </group>
   <group name="Multicopter Attitude Control">
-    <parameter default="6.0" name="MP_ROLL_P" type="FLOAT">
-      <short_desc>Roll P gain</short_desc>
-      <long_desc>Roll proportional gain, i.e. desired angular speed in rad/s for error 1 rad.</long_desc>
-      <min>0.0</min>
-    </parameter>
-    <parameter default="0.1" name="MP_ROLLRATE_P" type="FLOAT">
-      <short_desc>Roll rate P gain</short_desc>
-      <long_desc>Roll rate proportional gain, i.e. control output for angular speed error 1 rad/s.</long_desc>
-      <min>0.0</min>
-    </parameter>
-    <parameter default="0.0" name="MP_ROLLRATE_I" type="FLOAT">
-      <short_desc>Roll rate I gain</short_desc>
-      <long_desc>Roll rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</long_desc>
-      <min>0.0</min>
-    </parameter>
-    <parameter default="0.002" name="MP_ROLLRATE_D" type="FLOAT">
-      <short_desc>Roll rate D gain</short_desc>
-      <long_desc>Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</long_desc>
-      <min>0.0</min>
-    </parameter>
-    <parameter default="6.0" name="MP_PITCH_P" type="FLOAT">
-      <short_desc>Pitch P gain</short_desc>
-      <long_desc>Pitch proportional gain, i.e. desired angular speed in rad/s for error 1 rad.</long_desc>
-      <min>0.0</min>
-      <unit>1/s</unit>
-    </parameter>
-    <parameter default="0.1" name="MP_PITCHRATE_P" type="FLOAT">
-      <short_desc>Pitch rate P gain</short_desc>
-      <long_desc>Pitch rate proportional gain, i.e. control output for angular speed error 1 rad/s.</long_desc>
-      <min>0.0</min>
-    </parameter>
-    <parameter default="0.0" name="MP_PITCHRATE_I" type="FLOAT">
-      <short_desc>Pitch rate I gain</short_desc>
-      <long_desc>Pitch rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</long_desc>
-      <min>0.0</min>
-    </parameter>
-    <parameter default="0.002" name="MP_PITCHRATE_D" type="FLOAT">
-      <short_desc>Pitch rate D gain</short_desc>
-      <long_desc>Pitch rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</long_desc>
-      <min>0.0</min>
-    </parameter>
-    <parameter default="2.0" name="MP_YAW_P" type="FLOAT">
-      <short_desc>Yaw P gain</short_desc>
-      <long_desc>Yaw proportional gain, i.e. desired angular speed in rad/s for error 1 rad.</long_desc>
-      <min>0.0</min>
-      <unit>1/s</unit>
-    </parameter>
-    <parameter default="0.3" name="MP_YAWRATE_P" type="FLOAT">
-      <short_desc>Yaw rate P gain</short_desc>
-      <long_desc>Yaw rate proportional gain, i.e. control output for angular speed error 1 rad/s.</long_desc>
-      <min>0.0</min>
-    </parameter>
-    <parameter default="0.0" name="MP_YAWRATE_I" type="FLOAT">
-      <short_desc>Yaw rate I gain</short_desc>
-      <long_desc>Yaw rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</long_desc>
-      <min>0.0</min>
-    </parameter>
-    <parameter default="0.0" name="MP_YAWRATE_D" type="FLOAT">
-      <short_desc>Yaw rate D gain</short_desc>
-      <long_desc>Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</long_desc>
-      <min>0.0</min>
-    </parameter>
-    <parameter default="0.5" name="MP_YAW_FF" type="FLOAT">
-      <short_desc>Yaw feed forward</short_desc>
-      <long_desc>Feed forward weight for manual yaw control. 0 will give slow responce and no overshot, 1 - fast responce and big overshot.</long_desc>
-      <min>0.0</min>
-      <max>1.0</max>
-    </parameter>
-    <parameter default="60.0" name="MP_YAWRATE_MAX" type="FLOAT">
-      <short_desc>Max yaw rate</short_desc>
-      <long_desc>Limit for yaw rate, has effect for large rotations in autonomous mode, to avoid large control output and mixer saturation.</long_desc>
-      <min>0.0</min>
-      <max>360.0</max>
-      <unit>deg/s</unit>
-    </parameter>
-    <parameter default="35.0" name="MP_ACRO_R_MAX" type="FLOAT">
-      <short_desc>Max acro roll rate</short_desc>
-      <min>0.0</min>
-      <max>360.0</max>
-      <unit>deg/s</unit>
-    </parameter>
-    <parameter default="35.0" name="MP_ACRO_P_MAX" type="FLOAT">
-      <short_desc>Max acro pitch rate</short_desc>
-      <min>0.0</min>
-      <max>360.0</max>
-      <unit>deg/s</unit>
-    </parameter>
-    <parameter default="120.0" name="MP_ACRO_Y_MAX" type="FLOAT">
-      <short_desc>Max acro yaw rate</short_desc>
-      <min>0.0</min>
-      <unit>deg/s</unit>
-    </parameter>
     <parameter default="0.2" name="MC_ROLL_TC" type="FLOAT">
       <short_desc>Roll time constant</short_desc>
       <long_desc>Reduce if the system is too twitchy, increase if the response is too slow and sluggish.</long_desc>
@@ -2129,6 +2037,98 @@ velocity</short_desc>
       <max>1.0</max>
       <decimal>2</decimal>
       <increment>0.01</increment>
+    </parameter>
+    <parameter default="6.0" name="MP_ROLL_P" type="FLOAT">
+      <short_desc>Roll P gain</short_desc>
+      <long_desc>Roll proportional gain, i.e. desired angular speed in rad/s for error 1 rad.</long_desc>
+      <min>0.0</min>
+    </parameter>
+    <parameter default="0.1" name="MP_ROLLRATE_P" type="FLOAT">
+      <short_desc>Roll rate P gain</short_desc>
+      <long_desc>Roll rate proportional gain, i.e. control output for angular speed error 1 rad/s.</long_desc>
+      <min>0.0</min>
+    </parameter>
+    <parameter default="0.0" name="MP_ROLLRATE_I" type="FLOAT">
+      <short_desc>Roll rate I gain</short_desc>
+      <long_desc>Roll rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</long_desc>
+      <min>0.0</min>
+    </parameter>
+    <parameter default="0.002" name="MP_ROLLRATE_D" type="FLOAT">
+      <short_desc>Roll rate D gain</short_desc>
+      <long_desc>Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</long_desc>
+      <min>0.0</min>
+    </parameter>
+    <parameter default="6.0" name="MP_PITCH_P" type="FLOAT">
+      <short_desc>Pitch P gain</short_desc>
+      <long_desc>Pitch proportional gain, i.e. desired angular speed in rad/s for error 1 rad.</long_desc>
+      <min>0.0</min>
+      <unit>1/s</unit>
+    </parameter>
+    <parameter default="0.1" name="MP_PITCHRATE_P" type="FLOAT">
+      <short_desc>Pitch rate P gain</short_desc>
+      <long_desc>Pitch rate proportional gain, i.e. control output for angular speed error 1 rad/s.</long_desc>
+      <min>0.0</min>
+    </parameter>
+    <parameter default="0.0" name="MP_PITCHRATE_I" type="FLOAT">
+      <short_desc>Pitch rate I gain</short_desc>
+      <long_desc>Pitch rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</long_desc>
+      <min>0.0</min>
+    </parameter>
+    <parameter default="0.002" name="MP_PITCHRATE_D" type="FLOAT">
+      <short_desc>Pitch rate D gain</short_desc>
+      <long_desc>Pitch rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</long_desc>
+      <min>0.0</min>
+    </parameter>
+    <parameter default="2.0" name="MP_YAW_P" type="FLOAT">
+      <short_desc>Yaw P gain</short_desc>
+      <long_desc>Yaw proportional gain, i.e. desired angular speed in rad/s for error 1 rad.</long_desc>
+      <min>0.0</min>
+      <unit>1/s</unit>
+    </parameter>
+    <parameter default="0.3" name="MP_YAWRATE_P" type="FLOAT">
+      <short_desc>Yaw rate P gain</short_desc>
+      <long_desc>Yaw rate proportional gain, i.e. control output for angular speed error 1 rad/s.</long_desc>
+      <min>0.0</min>
+    </parameter>
+    <parameter default="0.0" name="MP_YAWRATE_I" type="FLOAT">
+      <short_desc>Yaw rate I gain</short_desc>
+      <long_desc>Yaw rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</long_desc>
+      <min>0.0</min>
+    </parameter>
+    <parameter default="0.0" name="MP_YAWRATE_D" type="FLOAT">
+      <short_desc>Yaw rate D gain</short_desc>
+      <long_desc>Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</long_desc>
+      <min>0.0</min>
+    </parameter>
+    <parameter default="0.5" name="MP_YAW_FF" type="FLOAT">
+      <short_desc>Yaw feed forward</short_desc>
+      <long_desc>Feed forward weight for manual yaw control. 0 will give slow responce and no overshot, 1 - fast responce and big overshot.</long_desc>
+      <min>0.0</min>
+      <max>1.0</max>
+    </parameter>
+    <parameter default="60.0" name="MP_YAWRATE_MAX" type="FLOAT">
+      <short_desc>Max yaw rate</short_desc>
+      <long_desc>Limit for yaw rate, has effect for large rotations in autonomous mode, to avoid large control output and mixer saturation.</long_desc>
+      <min>0.0</min>
+      <max>360.0</max>
+      <unit>deg/s</unit>
+    </parameter>
+    <parameter default="35.0" name="MP_ACRO_R_MAX" type="FLOAT">
+      <short_desc>Max acro roll rate</short_desc>
+      <min>0.0</min>
+      <max>360.0</max>
+      <unit>deg/s</unit>
+    </parameter>
+    <parameter default="35.0" name="MP_ACRO_P_MAX" type="FLOAT">
+      <short_desc>Max acro pitch rate</short_desc>
+      <min>0.0</min>
+      <max>360.0</max>
+      <unit>deg/s</unit>
+    </parameter>
+    <parameter default="120.0" name="MP_ACRO_Y_MAX" type="FLOAT">
+      <short_desc>Max acro yaw rate</short_desc>
+      <min>0.0</min>
+      <unit>deg/s</unit>
     </parameter>
     <parameter default="35.0" name="MPP_MAN_R_MAX" type="FLOAT">
       <short_desc>Max manual roll</short_desc>
@@ -2446,6 +2446,42 @@ velocity</short_desc>
     </parameter>
   </group>
   <group name="PWM Outputs">
+    <parameter default="0" name="PWM_AUX_REV1" type="INT32">
+      <short_desc>Invert direction of aux output channel 1</short_desc>
+      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
+      <boolean />
+      <reboot_required>true</reboot_required>
+    </parameter>
+    <parameter default="0" name="PWM_AUX_REV2" type="INT32">
+      <short_desc>Invert direction of aux output channel 2</short_desc>
+      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
+      <boolean />
+      <reboot_required>true</reboot_required>
+    </parameter>
+    <parameter default="0" name="PWM_AUX_REV3" type="INT32">
+      <short_desc>Invert direction of aux output channel 3</short_desc>
+      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
+      <boolean />
+      <reboot_required>true</reboot_required>
+    </parameter>
+    <parameter default="0" name="PWM_AUX_REV4" type="INT32">
+      <short_desc>Invert direction of aux output channel 4</short_desc>
+      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
+      <boolean />
+      <reboot_required>true</reboot_required>
+    </parameter>
+    <parameter default="0" name="PWM_AUX_REV5" type="INT32">
+      <short_desc>Invert direction of aux output channel 5</short_desc>
+      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
+      <boolean />
+      <reboot_required>true</reboot_required>
+    </parameter>
+    <parameter default="0" name="PWM_AUX_REV6" type="INT32">
+      <short_desc>Invert direction of aux output channel 6</short_desc>
+      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
+      <boolean />
+      <reboot_required>true</reboot_required>
+    </parameter>
     <parameter default="0" name="PWM_MAIN_REV1" type="INT32">
       <short_desc>Invert direction of main output channel 1</short_desc>
       <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
@@ -2498,42 +2534,6 @@ velocity</short_desc>
       <short_desc>Enable S.BUS out</short_desc>
       <long_desc>Set to 1 to enable S.BUS version 1 output instead of RSSI.</long_desc>
       <boolean />
-    </parameter>
-    <parameter default="0" name="PWM_AUX_REV1" type="INT32">
-      <short_desc>Invert direction of aux output channel 1</short_desc>
-      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
-      <boolean />
-      <reboot_required>true</reboot_required>
-    </parameter>
-    <parameter default="0" name="PWM_AUX_REV2" type="INT32">
-      <short_desc>Invert direction of aux output channel 2</short_desc>
-      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
-      <boolean />
-      <reboot_required>true</reboot_required>
-    </parameter>
-    <parameter default="0" name="PWM_AUX_REV3" type="INT32">
-      <short_desc>Invert direction of aux output channel 3</short_desc>
-      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
-      <boolean />
-      <reboot_required>true</reboot_required>
-    </parameter>
-    <parameter default="0" name="PWM_AUX_REV4" type="INT32">
-      <short_desc>Invert direction of aux output channel 4</short_desc>
-      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
-      <boolean />
-      <reboot_required>true</reboot_required>
-    </parameter>
-    <parameter default="0" name="PWM_AUX_REV5" type="INT32">
-      <short_desc>Invert direction of aux output channel 5</short_desc>
-      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
-      <boolean />
-      <reboot_required>true</reboot_required>
-    </parameter>
-    <parameter default="0" name="PWM_AUX_REV6" type="INT32">
-      <short_desc>Invert direction of aux output channel 6</short_desc>
-      <long_desc>Set to 1 to invert the channel, 0 for default direction.</long_desc>
-      <boolean />
-      <reboot_required>true</reboot_required>
     </parameter>
     <parameter default="1000" name="PWM_MIN" type="INT32">
       <short_desc>Set the minimum PWM for the MAIN outputs</short_desc>
@@ -4943,43 +4943,6 @@ This is used for gathering replay logs for the ekf2 module</short_desc>
     </parameter>
   </group>
   <group name="VTOL Attitude Control">
-    <parameter default="0.0" name="VT_TILT_MC" type="FLOAT">
-      <short_desc>Position of tilt servo in mc mode</short_desc>
-      <min>0.0</min>
-      <max>1.0</max>
-      <decimal>3</decimal>
-      <increment>0.01</increment>
-    </parameter>
-    <parameter default="0.3" name="VT_TILT_TRANS" type="FLOAT">
-      <short_desc>Position of tilt servo in transition mode</short_desc>
-      <min>0.0</min>
-      <max>1.0</max>
-      <decimal>3</decimal>
-      <increment>0.01</increment>
-    </parameter>
-    <parameter default="1.0" name="VT_TILT_FW" type="FLOAT">
-      <short_desc>Position of tilt servo in fw mode</short_desc>
-      <min>0.0</min>
-      <max>1.0</max>
-      <decimal>3</decimal>
-      <increment>0.01</increment>
-    </parameter>
-    <parameter default="0.5" name="VT_TRANS_P2_DUR" type="FLOAT">
-      <short_desc>Duration of front transition phase 2</short_desc>
-      <long_desc>Time in seconds it should take for the rotors to rotate forward completely from the point when the plane has picked up enough airspeed and is ready to go into fixed wind mode.</long_desc>
-      <min>0.1</min>
-      <max>5.0</max>
-      <unit>s</unit>
-      <decimal>3</decimal>
-      <increment>0.01</increment>
-    </parameter>
-    <parameter default="0" name="VT_FW_MOT_OFFID" type="INT32">
-      <short_desc>The channel number of motors that must be turned off in fixed wing mode</short_desc>
-      <min>0</min>
-      <max>12345678</max>
-      <decimal>0</decimal>
-      <increment>1</increment>
-    </parameter>
     <parameter default="0" name="VT_MOT_COUNT" type="INT32">
       <short_desc>VTOL number of engines</short_desc>
       <min>0</min>
@@ -5159,6 +5122,43 @@ This is used for gathering replay logs for the ekf2 module</short_desc>
       <max>1.0</max>
       <decimal>3</decimal>
       <increment>0.01</increment>
+    </parameter>
+    <parameter default="0.0" name="VT_TILT_MC" type="FLOAT">
+      <short_desc>Position of tilt servo in mc mode</short_desc>
+      <min>0.0</min>
+      <max>1.0</max>
+      <decimal>3</decimal>
+      <increment>0.01</increment>
+    </parameter>
+    <parameter default="0.3" name="VT_TILT_TRANS" type="FLOAT">
+      <short_desc>Position of tilt servo in transition mode</short_desc>
+      <min>0.0</min>
+      <max>1.0</max>
+      <decimal>3</decimal>
+      <increment>0.01</increment>
+    </parameter>
+    <parameter default="1.0" name="VT_TILT_FW" type="FLOAT">
+      <short_desc>Position of tilt servo in fw mode</short_desc>
+      <min>0.0</min>
+      <max>1.0</max>
+      <decimal>3</decimal>
+      <increment>0.01</increment>
+    </parameter>
+    <parameter default="0.5" name="VT_TRANS_P2_DUR" type="FLOAT">
+      <short_desc>Duration of front transition phase 2</short_desc>
+      <long_desc>Time in seconds it should take for the rotors to rotate forward completely from the point when the plane has picked up enough airspeed and is ready to go into fixed wind mode.</long_desc>
+      <min>0.1</min>
+      <max>5.0</max>
+      <unit>s</unit>
+      <decimal>3</decimal>
+      <increment>0.01</increment>
+    </parameter>
+    <parameter default="0" name="VT_FW_MOT_OFFID" type="INT32">
+      <short_desc>The channel number of motors that must be turned off in fixed wing mode</short_desc>
+      <min>0</min>
+      <max>12345678</max>
+      <decimal>0</decimal>
+      <increment>1</increment>
     </parameter>
   </group>
   <group name="mTECS">
@@ -5377,9 +5377,6 @@ Maps the change of airspeed error to the acceleration setpoint</short_desc>
     </parameter>
   </group>
   <group name="Miscellaneous">
-    <parameter default="0.1" name="RV_YAW_P" type="FLOAT">
-      <short_desc>RV_YAW_P</short_desc>
-    </parameter>
     <parameter default="0.1" name="EXFW_HDNG_P" type="FLOAT">
       <short_desc>EXFW_HDNG_P</short_desc>
     </parameter>
@@ -5389,32 +5386,8 @@ Maps the change of airspeed error to the acceleration setpoint</short_desc>
     <parameter default="0.2" name="EXFW_PITCH_P" type="FLOAT">
       <short_desc>EXFW_PITCH_P</short_desc>
     </parameter>
-    <parameter default="0" name="RC_MAP_FAILSAFE" type="INT32">
-      <short_desc>Failsafe channel mapping</short_desc>
-      <long_desc>The RC mapping index indicates which channel is used for failsafe If 0, whichever channel is mapped to throttle is used otherwise the value indicates the specific rc channel to use</long_desc>
-      <min>0</min>
-      <max>18</max>
-      <values>
-        <value code="11">Channel 11</value>
-        <value code="10">Channel 10</value>
-        <value code="13">Channel 13</value>
-        <value code="12">Channel 12</value>
-        <value code="15">Channel 15</value>
-        <value code="14">Channel 14</value>
-        <value code="17">Channel 17</value>
-        <value code="16">Channel 16</value>
-        <value code="18">Channel 18</value>
-        <value code="1">Channel 1</value>
-        <value code="0">Unassigned</value>
-        <value code="3">Channel 3</value>
-        <value code="2">Channel 2</value>
-        <value code="5">Channel 5</value>
-        <value code="4">Channel 4</value>
-        <value code="7">Channel 7</value>
-        <value code="6">Channel 6</value>
-        <value code="9">Channel 9</value>
-        <value code="8">Channel 8</value>
-      </values>
+    <parameter default="0.1" name="RV_YAW_P" type="FLOAT">
+      <short_desc>RV_YAW_P</short_desc>
     </parameter>
     <parameter default="-1.0" name="TEST_MIN" type="FLOAT">
       <short_desc>TEST_MIN</short_desc>
@@ -5451,6 +5424,33 @@ Maps the change of airspeed error to the acceleration setpoint</short_desc>
     </parameter>
     <parameter default="2.0" name="TEST_DEV" type="FLOAT">
       <short_desc>TEST_DEV</short_desc>
+    </parameter>
+    <parameter default="0" name="RC_MAP_FAILSAFE" type="INT32">
+      <short_desc>Failsafe channel mapping</short_desc>
+      <long_desc>The RC mapping index indicates which channel is used for failsafe If 0, whichever channel is mapped to throttle is used otherwise the value indicates the specific rc channel to use</long_desc>
+      <min>0</min>
+      <max>18</max>
+      <values>
+        <value code="11">Channel 11</value>
+        <value code="10">Channel 10</value>
+        <value code="13">Channel 13</value>
+        <value code="12">Channel 12</value>
+        <value code="15">Channel 15</value>
+        <value code="14">Channel 14</value>
+        <value code="17">Channel 17</value>
+        <value code="16">Channel 16</value>
+        <value code="18">Channel 18</value>
+        <value code="1">Channel 1</value>
+        <value code="0">Unassigned</value>
+        <value code="3">Channel 3</value>
+        <value code="2">Channel 2</value>
+        <value code="5">Channel 5</value>
+        <value code="4">Channel 4</value>
+        <value code="7">Channel 7</value>
+        <value code="6">Channel 6</value>
+        <value code="9">Channel 9</value>
+        <value code="8">Channel 8</value>
+      </values>
     </parameter>
     <parameter default="-1" name="COM_FLTMODE1" type="INT32">
       <short_desc>First flightmode slot (1000-1160)</short_desc>

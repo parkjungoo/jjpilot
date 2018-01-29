@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jj/MyProject/ardupilot/modules/PX4Firmware/src/drivers/boards/px4fmu-v2/board_config.h
+/home/jj/ardupilot/modules/PX4Firmware/src/drivers/boards/px4fmu-v2/board_config.h
 px4_config.h
 -
 nuttx/compiler.h
@@ -18,7 +18,7 @@ stm32.h
 arch/board/board.h
 -
 
-/home/jj/MyProject/ardupilot/modules/PX4Firmware/src/drivers/drv_hrt.h
+/home/jj/ardupilot/modules/PX4Firmware/src/drivers/drv_hrt.h
 sys/types.h
 -
 stdbool.h
@@ -30,23 +30,23 @@ px4_time.h
 queue.h
 -
 
-/home/jj/MyProject/ardupilot/modules/PX4Firmware/src/modules/systemlib/cpuload.h
+/home/jj/ardupilot/modules/PX4Firmware/src/modules/systemlib/cpuload.h
 sched.h
 -
 
-/home/jj/MyProject/ardupilot/modules/PX4Firmware/src/modules/systemlib/printload.h
+/home/jj/ardupilot/modules/PX4Firmware/src/modules/systemlib/printload.h
 px4_config.h
 -
 stdint.h
 -
 
-/home/jj/MyProject/ardupilot/modules/PX4Firmware/src/platforms/px4_config.h
+/home/jj/ardupilot/modules/PX4Firmware/src/platforms/px4_config.h
 nuttx/config.h
 -
 board_config.h
 -
 
-/home/jj/MyProject/ardupilot/modules/PX4Firmware/src/platforms/px4_time.h
+/home/jj/ardupilot/modules/PX4Firmware/src/platforms/px4_time.h
 sys/types.h
 -
 time.h
@@ -54,7 +54,7 @@ time.h
 sys/timespec.h
 -
 
-/home/jj/MyProject/ardupilot/modules/PX4Firmware/src/systemcmds/top/top.c
+/home/jj/ardupilot/modules/PX4Firmware/src/systemcmds/top/top.c
 px4_config.h
 -
 stdio.h

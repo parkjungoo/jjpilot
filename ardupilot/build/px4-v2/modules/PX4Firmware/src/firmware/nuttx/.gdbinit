@@ -4,4 +4,4 @@ attach 1
 monitor vector_catch disable hard
 set mem inaccessible-by-default off
 set print pretty
-source /home/jj/MyProject/ardupilot/modules/PX4Firmware/Debug/PX4
+source /home/jj/ardupilot/modules/PX4Firmware/Debug/PX4

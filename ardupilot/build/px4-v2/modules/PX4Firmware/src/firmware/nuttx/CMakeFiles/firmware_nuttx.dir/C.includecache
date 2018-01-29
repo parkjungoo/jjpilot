@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jj/MyProject/ardupilot/build/px4-v2/modules/PX4Firmware/src/firmware/nuttx/builtin_commands.c
+/home/jj/ardupilot/build/px4-v2/modules/PX4Firmware/src/firmware/nuttx/builtin_commands.c
 nuttx/config.h
 -
 nuttx/binfmt/builtin.h
